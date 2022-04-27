@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container
+{
+    width: 90%;
+    height: 100vh;
+    background: #1F2937;
+    padding: 15px;
+    color: white;
+}
+span , label
+{
+        color: #55F991;
+
+}
+#erorr
+{
+    color: red;
+}
+button
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #10B981;
+    /* shadow/sm */
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: unset;
+    font-size: 15px;
+    color: white;
+    grid-gap: 5px ;
+}
+.passwords
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-gap: 10px 5px;
+}
+.passwords > div
+{
+    width: 45%;
+}
+.passwords p
+{
+    background: #273549;
+    border-radius: 6px;
+    min-width: 40%;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    color: #55F991;
+}
